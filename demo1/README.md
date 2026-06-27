@@ -8,9 +8,18 @@ The objective is to understand the core Kubernetes resources by deploying a Flas
 
 ---
 
+## Prerequisites
+
+- Ubuntu Server
+- MicroK8s
+- kubectl
+- Docker image already available on the cluster
+
+---
+
 ## Objectives
 
-By completing this demo you I've learned how to:
+By completing this demo you I learned how to:
 
 * Create and manage a Namespace
 * Deploy applications using Deployments
@@ -112,13 +121,13 @@ kubectl get all -n demo1
 Increase the number of web application replicas:
 
 ```bash
-kubectl scale deployment web --replicas=3 -n demo
+kubectl scale deployment web --replicas=3 -n demo1
 ```
 
 Verify:
 
 ```bash
-kubectl get pods -n demo
+kubectl get pods -n demo1
 ```
 
 ---
@@ -128,7 +137,7 @@ kubectl get pods -n demo
 Delete one running Pod:
 
 ```bash
-kubectl delete pod <pod-name> -n demo
+kubectl delete pod <pod-name> -n demo1
 ```
 
 Kubernetes automatically creates a replacement Pod.
@@ -158,7 +167,7 @@ MariaDB data is stored inside a Persistent Volume Claim so that it survives Pod 
 Delete all project resources:
 
 ```bash
-kubectl delete namespace demo
+kubectl delete namespace demo1
 ```
 
 ---
