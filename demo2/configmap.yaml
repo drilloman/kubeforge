@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  namespace: demo1
+  name: web-config
+
+data:
+  APP_TITLE: "KubeForge Demo1 v1"
