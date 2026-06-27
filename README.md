@@ -89,6 +89,17 @@ kubeforge/
 │   └── README.md
 │
 ├── demo2/
+│   ├── app/
+│   ├── namespace.yaml
+│   ├── secret.yaml
+│   ├── configmap.yaml
+│   ├── mariadb-deployment.yaml
+│   ├── mariadb-service.yaml
+│   ├── mariadb-pvc.yaml
+│   ├── web-deployment.yaml
+│   ├── web-service.yaml
+│   └── README.md
+|
 ├── demo3/
 │
 └── README.md
