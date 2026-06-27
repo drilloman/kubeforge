@@ -41,11 +41,10 @@ Each demo introduces new Kubernetes concepts while reinforcing previous knowledg
 * Scaling
 * Self-healing
 
-## ✅ Demo 2 – Multi-Node Kubernetes Cluster
-
 **Status:** Completed
 
-### Key Achievements
+
+## ✅ Demo 2 – Multi-Node Kubernetes Cluster
 
 * Built a **3-node MicroK8s cluster**
 * Configured a **Control Plane** and **2 Worker Nodes**
