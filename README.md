@@ -41,9 +41,28 @@ Each demo introduces new Kubernetes concepts while reinforcing previous knowledg
 * Scaling
 * Self-healing
 
+## ✅ Demo 2 – Multi-Node Kubernetes Cluster
+
+**Status:** Completed
+
+### Key Achievements
+
+* Built a **3-node MicroK8s cluster**
+* Configured a **Control Plane** and **2 Worker Nodes**
+* Deployed and configured an **internal container registry**
+* Distributed container images across the cluster
+* Observed Kubernetes **Pod scheduling** on multiple nodes
+* Simulated **worker node failures** and analyzed cluster behavior
+* Performed **real-world infrastructure troubleshooting**
+* Published complete project **documentation**
+
+**Status:** Completed
+
+
 ### 🔜 Planned Demos
 
-* Demo 2 – Multi-node Cluster
+* Demo 1 - Kubernetes Fundamentals ✅
+* Demo 2 – Multi-node Cluster ✅
 * Demo 3 – Ingress Controller
 * Demo 4 – Horizontal Pod Autoscaler (HPA)
 * Demo 5 – Rolling Updates & Rollbacks
