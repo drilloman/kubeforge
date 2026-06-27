@@ -1,32 +1,36 @@
 # KubeForge
 
-> **Hands-on Kubernetes labs documenting my journey toward the Certified Kubernetes Administrator (CKA) certification.**
+> Hands-on Kubernetes labs documenting my journey toward the **Certified Kubernetes Administrator (CKA)** certification.
 
 ---
 
-## About
+# About
 
 KubeForge is my personal Kubernetes learning project.
 
-The objective is to learn Kubernetes by building practical, progressively more advanced laboratories instead of following isolated tutorials.
+The goal is to learn Kubernetes by building practical, progressively more advanced labs instead of following isolated tutorials.
 
-Each demo introduces new Kubernetes concepts while reinforcing previous knowledge, creating a complete learning path from the fundamentals to production-oriented topics.
+Each demo introduces new Kubernetes concepts while reinforcing previous knowledge, creating a structured learning path from Kubernetes fundamentals to production-oriented deployments.
 
 ---
 
-## Objectives
+# Objectives
 
 * Learn Kubernetes through hands-on practice
 * Build a public portfolio of Kubernetes projects
-* Prepare for the Certified Kubernetes Administrator (CKA) certification
-* Follow infrastructure-as-code and Kubernetes best practices
+* Prepare for the **Certified Kubernetes Administrator (CKA)** certification
+* Follow Infrastructure as Code (IaC) and Kubernetes best practices
 * Document every project from design to deployment
 
 ---
 
-## Learning Roadmap
+# Learning Roadmap
 
-### ✅ Demo 1 – Kubernetes Fundamentals
+## ✅ Demo 1 – Kubernetes Fundamentals
+
+**Status:** Completed
+
+### Topics Covered
 
 * Namespace
 * Deployment
@@ -37,41 +41,41 @@ Each demo introduces new Kubernetes concepts while reinforcing previous knowledg
 * Secret
 * Persistent Volume Claim (PVC)
 * MariaDB
-* Flask application
+* Flask Application
 * Scaling
-* Self-healing
+* Self-Healing
 
-**Status:** Completed
-
+---
 
 ## ✅ Demo 2 – Multi-Node Kubernetes Cluster
 
-* Built a **3-node MicroK8s cluster**
-* Configured a **Control Plane** and **2 Worker Nodes**
-* Deployed and configured an **internal container registry**
-* Distributed container images across the cluster
-* Observed Kubernetes **Pod scheduling** on multiple nodes
-* Simulated **worker node failures** and analyzed cluster behavior
-* Performed **real-world infrastructure troubleshooting**
-* Published complete project **documentation**
-
 **Status:** Completed
 
+### Topics Covered
 
-### 🔜 Planned Demos
+* Built a 3-node MicroK8s cluster
+* Configured a Control Plane and two Worker Nodes
+* Deployed an internal container registry
+* Distributed container images across the cluster
+* Observed Kubernetes Pod scheduling
+* Simulated worker node failures
+* Performed real-world infrastructure troubleshooting
+* Published complete project documentation
 
-* Demo 1 - Kubernetes Fundamentals ✅
-* Demo 2 – Multi-node Cluster ✅
+---
+
+## 🔜 Planned Demos
+
 * Demo 3 – Ingress Controller
 * Demo 4 – Horizontal Pod Autoscaler (HPA)
 * Demo 5 – Rolling Updates & Rollbacks
 * Demo 6 – Helm
 * Demo 7 – Monitoring
-* Demo 8 – Production-ready Application
+* Demo 8 – Production-Ready Application
 
 ---
 
-## Repository Structure
+# Repository Structure
 
 ```text
 kubeforge/
@@ -99,7 +103,7 @@ kubeforge/
 │   ├── web-deployment.yaml
 │   ├── web-service.yaml
 │   └── README.md
-|
+│
 ├── demo3/
 │
 └── README.md
@@ -107,28 +111,38 @@ kubeforge/
 
 ---
 
-## Technologies
+# Technologies
 
-* Kubernetes
-* MicroK8s
-* Docker
-* Python
-* Flask
-* MariaDB
-* Linux
-* Git
-* GitHub
+### Container Orchestration
+- Kubernetes
+- MicroK8s
+
+### Containerization
+- Docker
+- Podman
+
+### Application
+- Python
+- Flask
+- MariaDB
+
+### DevOps
+- Git
+- GitHub
+
+### Operating System
+- Linux
 
 ---
 
-## Certification Goal
+# Certification Goal
 
-The final objective of this project is to obtain the **Certified Kubernetes Administrator (CKA)** certification while developing practical skills applicable to real-world Kubernetes environments.
+The ultimate goal of this project is to achieve the **Certified Kubernetes Administrator (CKA)** certification while developing practical skills applicable to real-world Kubernetes environments.
 
-Every completed demo represents another milestone in that journey.
+Each completed demo represents another milestone in that journey.
 
 ---
 
-## License
+# License
 
 This repository is intended for educational purposes and personal portfolio development.
